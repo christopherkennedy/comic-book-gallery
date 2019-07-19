@@ -31,5 +31,7 @@ namespace ComicBookGallery.Models
 
             }
         }
+
+        public Artist[] Artists { get; internal set; }
     }
 }
